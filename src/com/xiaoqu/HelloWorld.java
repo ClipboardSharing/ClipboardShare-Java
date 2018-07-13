@@ -1,4 +1,4 @@
-package com.xiaoqu;
+
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
@@ -7,7 +7,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 
 public class HelloWorld {
-    public static  void main(String[] args){
+    public static void main(String[] args){
         // 把文本设置到剪贴板（复制）
       setClipboardString("Hello System Clipboard!");
 
